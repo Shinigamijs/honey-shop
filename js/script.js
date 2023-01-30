@@ -31,7 +31,7 @@ sr.reveal('.container', {delay:400});
 sr.reveal('.about__img', {});
 sr.reveal('.about__text', {delay:300});
 
-sr.reveal('.shop__title, .review__title', {});
+sr.reveal('.shop__title', {});
 sr.reveal('.row__btn, .shop__content', {delay:300});
 
-sr.reveal('.review__content, .contact', {delay:300});
+sr.reveal('.review__content, .contact, .review__title', {delay:300});
