@@ -1,0 +1,37 @@
+.box {
+    padding: 35px;
+    background: var(--other-color);
+    border-radius: 3rem;
+    &__descr {
+        color: var(--second-color);
+        font-size: var(--p-font);
+        line-height: 30px;
+        margin-bottom: 1.5rem;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    &__img img{
+        width: 100%;
+        height: auto;
+        border-radius: 3rem;
+    }
+    &__text h4{
+        margin: 5px 0;
+        font-size: 18ox;
+    }
+    &__text h5 {
+        color: var(--second-color);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .rating i{
+        color: var(--main-color);
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}

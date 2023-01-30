@@ -1,0 +1,24 @@
+.tabs {
+    padding: 43px 43px 43px 43px;
+    background: var(--other-color);
+    border-radius: 3rem;
+    img {
+        width: 100%;
+        max-width: 50px;
+        height: auto;
+    }
+    &__title {
+        font-size: 21px;
+        font-weight: bold;
+        margin: 16px 0;
+    }
+    &__link {
+        color: var(--second-color);
+        font-size: var(--p-font);
+        letter-spacing: 1px;
+        transition: all .50s ease;
+    }
+    &__link:hover {
+        color: var(--main-color);
+    }
+}

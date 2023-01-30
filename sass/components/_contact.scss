@@ -1,0 +1,74 @@
+.contact {
+    &__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 3rem;
+            &__item a{
+                display: flex;
+                align-items: center;
+                color: var(--text-color);
+                font-size: 20px;
+                font-weight: 600;
+            }
+            &__item i {
+                vertical-align: middle;
+                margin-right: 12px;
+                font-weight: 28px;
+                color: var(--main-color);
+            }
+        }
+    }
+    &__img {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 4rem;
+        margin-bottom: 5rem;
+    }
+    &__img img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        cursor: pointer;
+        transition: all .50s ease;
+    }
+    &__img img:hover {
+        transform: scale(0.9);
+    }
+    &__text {
+        text-align: center;
+        margin-bottom: 4rem;
+        h2 {
+            font-size: var(--h2-font);
+            margin-bottom: 10px;
+        }
+        p {
+            color: var(--second-color);
+            font-size: var(--p-font);
+            max-width: 950px;
+            line-height: 30px;
+            margin-bottom: 3rem;
+        }
+        .social {
+            i {
+                display: inline-block;
+                font-size: 32px;
+                color: var(--second-color);
+                margin: 0 20px;
+                transition: all .50s ease; 
+            }
+            i:hover {
+                color: var(--main-color);
+            }
+            .clr i {
+                color: var(--main-color);
+            }
+        }
+    }   
+}
