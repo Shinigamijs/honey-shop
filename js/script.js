@@ -16,3 +16,22 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navlist.classList.remove('open');
 };
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '85px',
+    duration: 2500,
+    reset: true
+});
+
+sr.reveal('.home__text', {delay:300});
+sr.reveal('.home__img', {delay:400});
+sr.reveal('.container', {delay:400});
+
+sr.reveal('.about__img', {});
+sr.reveal('.about__text', {delay:300});
+
+sr.reveal('.shop__title, .review__title', {});
+sr.reveal('.row__btn, .shop__content', {delay:300});
+
+sr.reveal('.review__content, .contact', {delay:300});
